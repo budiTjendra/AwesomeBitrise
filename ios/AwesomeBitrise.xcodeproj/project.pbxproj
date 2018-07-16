@@ -12,7 +12,6 @@
 		00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302C01ABCB91800DB3ED1 /* libRCTImage.a */; };
 		00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
 		00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
-		00C4A30A4663C494D2A960A9 /* Pods_AwesomeBitRise_tvOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A126A235ADB9432D9679DC9 /* Pods_AwesomeBitRise_tvOSTests.framework */; };
 		00E356F31AD99517003FC87E /* AwesomeBitRiseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AwesomeBitRiseTests.m */; };
 		133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
 		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
@@ -23,6 +22,7 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		27CF33AB35D3C44A8FF5335B /* Pods_AwesomeBitRise_tvOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68EA6B94C98600FA395C7F4B /* Pods_AwesomeBitRise_tvOSTests.framework */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -37,11 +37,11 @@
 		2DCD954D1E0B4F2C00145EB5 /* AwesomeBitRiseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AwesomeBitRiseTests.m */; };
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
-		6388937EDCD264969BDC65F2 /* Pods_AwesomeBitRise_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9F13599D4D0FC62EBF7DF5A /* Pods_AwesomeBitRise_tvOS.framework */; };
-		7AB8A4B135450C4844FB0BD9 /* Pods_AwesomeBitRise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA1B493FBE4A90D7BFF7D86 /* Pods_AwesomeBitRise.framework */; };
+		74CF84936065C2842DF2D7DD /* Pods_AwesomeBitRise_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 235DA78816FFA4FD44AB663A /* Pods_AwesomeBitRise_tvOS.framework */; };
+		7CD231F44BD9CB27B8061968 /* Pods_AwesomeBitRise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E27D4500BE267C83966072 /* Pods_AwesomeBitRise.framework */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
-		DA90C9601F10126D9B8194E1 /* Pods_AwesomeBitRiseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 603A86B8FC6ACD244DD5E614 /* Pods_AwesomeBitRiseTests.framework */; };
+		F8C5872D267D1DF26A9C851E /* Pods_AwesomeBitRiseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 481741D47A725AA8C601342A /* Pods_AwesomeBitRiseTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -330,7 +330,6 @@
 		00E356EE1AD99517003FC87E /* AwesomeBitRiseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AwesomeBitRiseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* AwesomeBitRiseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AwesomeBitRiseTests.m; sourceTree = "<group>"; };
-		0EA2C2A791BEFF2F414268CA /* Pods-AwesomeBitRise-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeBitRise-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomeBitRise-tvOSTests/Pods-AwesomeBitRise-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* AwesomeBitRise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwesomeBitRise.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -341,24 +340,25 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AwesomeBitRise/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AwesomeBitRise/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
-		2A126A235ADB9432D9679DC9 /* Pods_AwesomeBitRise_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeBitRise_tvOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		235DA78816FFA4FD44AB663A /* Pods_AwesomeBitRise_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeBitRise_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E47B1E0B4A5D006451C7 /* AwesomeBitRise-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AwesomeBitRise-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* AwesomeBitRise-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AwesomeBitRise-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D4564A85E4EDF71807B3C56 /* Pods-AwesomeBitRiseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeBitRiseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomeBitRiseTests/Pods-AwesomeBitRiseTests.debug.xcconfig"; sourceTree = "<group>"; };
-		34C5FE3296314E4B104CD20B /* Pods-AwesomeBitRiseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeBitRiseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomeBitRiseTests/Pods-AwesomeBitRiseTests.release.xcconfig"; sourceTree = "<group>"; };
-		4C866D541C7072B6F3B5F24B /* Pods-AwesomeBitRise-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeBitRise-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomeBitRise-tvOSTests/Pods-AwesomeBitRise-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2F81846747D7FDE854BC0D33 /* Pods-AwesomeBitRiseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeBitRiseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomeBitRiseTests/Pods-AwesomeBitRiseTests.release.xcconfig"; sourceTree = "<group>"; };
+		431A13BC200F0879832AB0A7 /* Pods-AwesomeBitRiseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeBitRiseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomeBitRiseTests/Pods-AwesomeBitRiseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		481741D47A725AA8C601342A /* Pods_AwesomeBitRiseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeBitRiseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4847CA8EDC2B3AEAFEA2A84A /* Pods-AwesomeBitRise-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeBitRise-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomeBitRise-tvOS/Pods-AwesomeBitRise-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		4C8F6D6D5CD29BD868C42F4D /* Pods-AwesomeBitRise-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeBitRise-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomeBitRise-tvOSTests/Pods-AwesomeBitRise-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		558C31AAD6877B77D503FF9C /* Pods-AwesomeBitRise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeBitRise.release.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomeBitRise/Pods-AwesomeBitRise.release.xcconfig"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
-		603A86B8FC6ACD244DD5E614 /* Pods_AwesomeBitRiseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeBitRiseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68EA6B94C98600FA395C7F4B /* Pods_AwesomeBitRise_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeBitRise_tvOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
-		8DFF5AFEBFCD27584F2C5C03 /* Pods-AwesomeBitRise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeBitRise.release.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomeBitRise/Pods-AwesomeBitRise.release.xcconfig"; sourceTree = "<group>"; };
-		A14884529B7FA9508DFE6E53 /* Pods-AwesomeBitRise-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeBitRise-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomeBitRise-tvOS/Pods-AwesomeBitRise-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
-		B6A8C9CCBED41682988899A5 /* Pods-AwesomeBitRise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeBitRise.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomeBitRise/Pods-AwesomeBitRise.debug.xcconfig"; sourceTree = "<group>"; };
-		D3BF980411512C6E3EB4C993 /* Pods-AwesomeBitRise-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeBitRise-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomeBitRise-tvOS/Pods-AwesomeBitRise-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		DEA1B493FBE4A90D7BFF7D86 /* Pods_AwesomeBitRise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeBitRise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F9F13599D4D0FC62EBF7DF5A /* Pods_AwesomeBitRise_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeBitRise_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B90EE5D8B3B3DF84A2F773BE /* Pods-AwesomeBitRise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeBitRise.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomeBitRise/Pods-AwesomeBitRise.debug.xcconfig"; sourceTree = "<group>"; };
+		BAEBE5A3EA590DA29F88947B /* Pods-AwesomeBitRise-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeBitRise-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomeBitRise-tvOS/Pods-AwesomeBitRise-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		D441189084C647DDE1C5BC21 /* Pods-AwesomeBitRise-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeBitRise-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomeBitRise-tvOSTests/Pods-AwesomeBitRise-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		F9E27D4500BE267C83966072 /* Pods_AwesomeBitRise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeBitRise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -367,7 +367,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */,
-				DA90C9601F10126D9B8194E1 /* Pods_AwesomeBitRiseTests.framework in Frameworks */,
+				F8C5872D267D1DF26A9C851E /* Pods_AwesomeBitRiseTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,7 +388,7 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
-				7AB8A4B135450C4844FB0BD9 /* Pods_AwesomeBitRise.framework in Frameworks */,
+				7CD231F44BD9CB27B8061968 /* Pods_AwesomeBitRise.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,7 +404,7 @@
 				2D02E4C61E0B4AEC006451C7 /* libRCTSettings-tvOS.a in Frameworks */,
 				2D02E4C71E0B4AEC006451C7 /* libRCTText-tvOS.a in Frameworks */,
 				2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */,
-				6388937EDCD264969BDC65F2 /* Pods_AwesomeBitRise_tvOS.framework in Frameworks */,
+				74CF84936065C2842DF2D7DD /* Pods_AwesomeBitRise_tvOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,7 +413,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */,
-				00C4A30A4663C494D2A960A9 /* Pods_AwesomeBitRise_tvOSTests.framework in Frameworks */,
+				27CF33AB35D3C44A8FF5335B /* Pods_AwesomeBitRise_tvOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,10 +540,10 @@
 			isa = PBXGroup;
 			children = (
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
-				DEA1B493FBE4A90D7BFF7D86 /* Pods_AwesomeBitRise.framework */,
-				F9F13599D4D0FC62EBF7DF5A /* Pods_AwesomeBitRise_tvOS.framework */,
-				2A126A235ADB9432D9679DC9 /* Pods_AwesomeBitRise_tvOSTests.framework */,
-				603A86B8FC6ACD244DD5E614 /* Pods_AwesomeBitRiseTests.framework */,
+				F9E27D4500BE267C83966072 /* Pods_AwesomeBitRise.framework */,
+				235DA78816FFA4FD44AB663A /* Pods_AwesomeBitRise_tvOS.framework */,
+				68EA6B94C98600FA395C7F4B /* Pods_AwesomeBitRise_tvOSTests.framework */,
+				481741D47A725AA8C601342A /* Pods_AwesomeBitRiseTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -602,7 +602,7 @@
 				00E356EF1AD99517003FC87E /* AwesomeBitRiseTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				A8EC0C8ED2E4219375EFD80C /* Pods */,
+				C4687BD76B8AD6109A18522D /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -620,21 +620,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A8EC0C8ED2E4219375EFD80C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B6A8C9CCBED41682988899A5 /* Pods-AwesomeBitRise.debug.xcconfig */,
-				8DFF5AFEBFCD27584F2C5C03 /* Pods-AwesomeBitRise.release.xcconfig */,
-				A14884529B7FA9508DFE6E53 /* Pods-AwesomeBitRise-tvOS.debug.xcconfig */,
-				D3BF980411512C6E3EB4C993 /* Pods-AwesomeBitRise-tvOS.release.xcconfig */,
-				4C866D541C7072B6F3B5F24B /* Pods-AwesomeBitRise-tvOSTests.debug.xcconfig */,
-				0EA2C2A791BEFF2F414268CA /* Pods-AwesomeBitRise-tvOSTests.release.xcconfig */,
-				2D4564A85E4EDF71807B3C56 /* Pods-AwesomeBitRiseTests.debug.xcconfig */,
-				34C5FE3296314E4B104CD20B /* Pods-AwesomeBitRiseTests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		ADBDB9201DFEBF0600ED6528 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -644,6 +629,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		C4687BD76B8AD6109A18522D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B90EE5D8B3B3DF84A2F773BE /* Pods-AwesomeBitRise.debug.xcconfig */,
+				558C31AAD6877B77D503FF9C /* Pods-AwesomeBitRise.release.xcconfig */,
+				BAEBE5A3EA590DA29F88947B /* Pods-AwesomeBitRise-tvOS.debug.xcconfig */,
+				4847CA8EDC2B3AEAFEA2A84A /* Pods-AwesomeBitRise-tvOS.release.xcconfig */,
+				4C8F6D6D5CD29BD868C42F4D /* Pods-AwesomeBitRise-tvOSTests.debug.xcconfig */,
+				D441189084C647DDE1C5BC21 /* Pods-AwesomeBitRise-tvOSTests.release.xcconfig */,
+				431A13BC200F0879832AB0A7 /* Pods-AwesomeBitRiseTests.debug.xcconfig */,
+				2F81846747D7FDE854BC0D33 /* Pods-AwesomeBitRiseTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -651,7 +651,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AwesomeBitRiseTests" */;
 			buildPhases = (
-				5EDE260D81024F3CAC7E4111 /* [CP] Check Pods Manifest.lock */,
+				C13581A3A3F9784EEFBB4BCC /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -670,7 +670,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AwesomeBitRise" */;
 			buildPhases = (
-				D4AAA68AEC7FE14A0D64B6BF /* [CP] Check Pods Manifest.lock */,
+				3EE29B4C18014B2703728141 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
@@ -689,7 +689,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "AwesomeBitRise-tvOS" */;
 			buildPhases = (
-				67B6CC2FDF093526D7DE7B28 /* [CP] Check Pods Manifest.lock */,
+				4C0B16F176C1421C14FEEB62 /* [CP] Check Pods Manifest.lock */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
 				2D02E4791E0B4A5D006451C7 /* Resources */,
@@ -708,7 +708,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "AwesomeBitRise-tvOSTests" */;
 			buildPhases = (
-				CDA4415FC8D828FBF2181191 /* [CP] Check Pods Manifest.lock */,
+				FC835FAF826AB437DEC87921 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -735,10 +735,6 @@
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
-					};
-					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = DD67N9K6P3;
-						ProvisioningStyle = Manual;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -1147,7 +1143,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		5EDE260D81024F3CAC7E4111 /* [CP] Check Pods Manifest.lock */ = {
+		3EE29B4C18014B2703728141 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1158,14 +1154,14 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AwesomeBitRiseTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-AwesomeBitRise-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		67B6CC2FDF093526D7DE7B28 /* [CP] Check Pods Manifest.lock */ = {
+		4C0B16F176C1421C14FEEB62 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1183,7 +1179,25 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CDA4415FC8D828FBF2181191 /* [CP] Check Pods Manifest.lock */ = {
+		C13581A3A3F9784EEFBB4BCC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AwesomeBitRiseTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC835FAF826AB437DEC87921 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1195,24 +1209,6 @@
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-AwesomeBitRise-tvOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D4AAA68AEC7FE14A0D64B6BF /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AwesomeBitRise-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1286,7 +1282,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D4564A85E4EDF71807B3C56 /* Pods-AwesomeBitRiseTests.debug.xcconfig */;
+			baseConfigurationReference = 431A13BC200F0879832AB0A7 /* Pods-AwesomeBitRiseTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1307,7 +1303,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34C5FE3296314E4B104CD20B /* Pods-AwesomeBitRiseTests.release.xcconfig */;
+			baseConfigurationReference = 2F81846747D7FDE854BC0D33 /* Pods-AwesomeBitRiseTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -1325,14 +1321,11 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B6A8C9CCBED41682988899A5 /* Pods-AwesomeBitRise.debug.xcconfig */;
+			baseConfigurationReference = B90EE5D8B3B3DF84A2F773BE /* Pods-AwesomeBitRise.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = DD67N9K6P3;
 				INFOPLIST_FILE = AwesomeBitRise/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -1341,21 +1334,16 @@
 					"-lc++",
 				);
 				PRODUCT_NAME = AwesomeBitRise;
-				PROVISIONING_PROFILE = "194d84c3-373e-43a0-af86-c60b153a2148";
-				PROVISIONING_PROFILE_SPECIFIER = "Awesome Bitrise Dev";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8DFF5AFEBFCD27584F2C5C03 /* Pods-AwesomeBitRise.release.xcconfig */;
+			baseConfigurationReference = 558C31AAD6877B77D503FF9C /* Pods-AwesomeBitRise.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = DD67N9K6P3;
 				INFOPLIST_FILE = AwesomeBitRise/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -1364,15 +1352,13 @@
 					"-lc++",
 				);
 				PRODUCT_NAME = AwesomeBitRise;
-				PROVISIONING_PROFILE = "194d84c3-373e-43a0-af86-c60b153a2148";
-				PROVISIONING_PROFILE_SPECIFIER = "Awesome Bitrise Dev";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A14884529B7FA9508DFE6E53 /* Pods-AwesomeBitRise-tvOS.debug.xcconfig */;
+			baseConfigurationReference = BAEBE5A3EA590DA29F88947B /* Pods-AwesomeBitRise-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1399,7 +1385,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3BF980411512C6E3EB4C993 /* Pods-AwesomeBitRise-tvOS.release.xcconfig */;
+			baseConfigurationReference = 4847CA8EDC2B3AEAFEA2A84A /* Pods-AwesomeBitRise-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1426,7 +1412,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C866D541C7072B6F3B5F24B /* Pods-AwesomeBitRise-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 4C8F6D6D5CD29BD868C42F4D /* Pods-AwesomeBitRise-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1452,7 +1438,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0EA2C2A791BEFF2F414268CA /* Pods-AwesomeBitRise-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = D441189084C647DDE1C5BC21 /* Pods-AwesomeBitRise-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;

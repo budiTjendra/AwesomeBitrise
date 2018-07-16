@@ -1,0 +1,6 @@
+framework module Pods_AwesomeBitRise {
+  umbrella header "Pods-AwesomeBitRise-umbrella.h"
+
+  export *
+  module * { export * }
+}

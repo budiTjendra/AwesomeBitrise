@@ -2,10 +2,4 @@
 target 'AwesomeBitRise' do
   # We uncomment because we like dynamic frameworks witn working with swift projects
   use_frameworks!
-  # Add new pods below this line
-  target 'AwesomeBitRiseTests' do
-    inherit! :search_paths
-    # Pods for testing
-    # Add new pods below this line
-  end
 end

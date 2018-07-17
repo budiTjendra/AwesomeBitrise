@@ -1,0 +1,886 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15343B3486B25D3722CBF835673B1E26 /* Pods-AwesomeBitRise-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCEE3698886F2360F4751F3CAA8E313 /* Pods-AwesomeBitRise-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C3F5436EE5AA72F43F5DF72FFEC220E /* Pods-AwesomeBitRise-tvOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4CDB8B7D6DAC6C5DC0AF090EA4BF6D /* Pods-AwesomeBitRise-tvOSTests-dummy.m */; };
+		6FD785E8C2DCC44C03F82907FE1AA75B /* Pods-AwesomeBitRise-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13DED41CC3E5BAA92414840356ECD700 /* Pods-AwesomeBitRise-tvOS-dummy.m */; };
+		7D9C1550FB5BDAEEFF98B55238B893CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 158063BD094C9B7A1837A1C7B0E3B298 /* Foundation.framework */; };
+		8A9429968E565C4162C4546242E8BE1F /* Pods-AwesomeBitRise-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D2644A59BEC74AA0CA9270A66863C1 /* Pods-AwesomeBitRise-dummy.m */; };
+		8B3A5A8B1B73ED5723F0E5633B425EE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE937F70D5DBF1A7F09641FDCE20931 /* Foundation.framework */; };
+		AE1116D0201E0A7B2D785C091B0DF59F /* Pods-AwesomeBitRiseTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 534A0679FEC9E367899DCF28FF77CB1E /* Pods-AwesomeBitRiseTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0DB3F768A0CDC83338D1485840D78AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE937F70D5DBF1A7F09641FDCE20931 /* Foundation.framework */; };
+		E18A26A095A38CBA11485E54F64661A0 /* Pods-AwesomeBitRiseTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C017F4D587700B2BA3C14E1883B7051 /* Pods-AwesomeBitRiseTests-dummy.m */; };
+		EC9931B230810828E986BDCDED64C3C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 158063BD094C9B7A1837A1C7B0E3B298 /* Foundation.framework */; };
+		EF37D785B5338AB40E180C44796D0400 /* Pods-AwesomeBitRise-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 622FC089582F3A62DC150AACE743EA12 /* Pods-AwesomeBitRise-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF0BCBA6A85406B1FB4E4717D142EEF1 /* Pods-AwesomeBitRise-tvOSTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 309BE3F2292CE90A390CEEDF94785D9F /* Pods-AwesomeBitRise-tvOSTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		154C775DCC56E4D31AC43EFBD0E83846 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97C1D0942C2CF44929DBD3AE56756CAB;
+			remoteInfo = "Pods-AwesomeBitRise";
+		};
+		2DE6FBAEC815DCA8CA3369FB6AB088B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B4EA0997FE12A423C71768B088509BD;
+			remoteInfo = "Pods-AwesomeBitRise-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13DED41CC3E5BAA92414840356ECD700 /* Pods-AwesomeBitRise-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AwesomeBitRise-tvOS-dummy.m"; sourceTree = "<group>"; };
+		158063BD094C9B7A1837A1C7B0E3B298 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1859BB36F9470A0E76B751E68EF74676 /* Pods-AwesomeBitRise-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AwesomeBitRise-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		1C017F4D587700B2BA3C14E1883B7051 /* Pods-AwesomeBitRiseTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AwesomeBitRiseTests-dummy.m"; sourceTree = "<group>"; };
+		238FD88259B59BB54C20C484AF48F86F /* Pods-AwesomeBitRise-tvOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AwesomeBitRise-tvOS-frameworks.sh"; sourceTree = "<group>"; };
+		309BE3F2292CE90A390CEEDF94785D9F /* Pods-AwesomeBitRise-tvOSTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AwesomeBitRise-tvOSTests-umbrella.h"; sourceTree = "<group>"; };
+		3B310534917C68097F0D73DF31B1570D /* Pods-AwesomeBitRiseTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AwesomeBitRiseTests-resources.sh"; sourceTree = "<group>"; };
+		46DFA8852E59EFD0CBF6F9EB1BC7CD3D /* Pods-AwesomeBitRise-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AwesomeBitRise-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		4A455DBCC0584EF63609D19B3465F81C /* Pods-AwesomeBitRiseTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AwesomeBitRiseTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		534A0679FEC9E367899DCF28FF77CB1E /* Pods-AwesomeBitRiseTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AwesomeBitRiseTests-umbrella.h"; sourceTree = "<group>"; };
+		5CDE8F6EF714346CCE5E045E63C2A8FC /* Pods-AwesomeBitRise-tvOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AwesomeBitRise-tvOS-resources.sh"; sourceTree = "<group>"; };
+		5F5384FCCBC7602724A0CE790E922B9D /* Pods-AwesomeBitRise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AwesomeBitRise.release.xcconfig"; sourceTree = "<group>"; };
+		60ACB3B4EA299EA205C5F89D1B6BF755 /* Pods-AwesomeBitRise.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AwesomeBitRise.modulemap"; sourceTree = "<group>"; };
+		622FC089582F3A62DC150AACE743EA12 /* Pods-AwesomeBitRise-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AwesomeBitRise-tvOS-umbrella.h"; sourceTree = "<group>"; };
+		72256BD6495B8A6F0E35D0961303876D /* Pods_AwesomeBitRiseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AwesomeBitRiseTests.framework; path = "Pods-AwesomeBitRiseTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73C607B5BE1E71643C5A3948A1D2E35E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7407D1A6F393B6B0F8F9BED8C4CB2190 /* Pods-AwesomeBitRise-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AwesomeBitRise-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		773ACF9F56A01DA7D26EDCDCDC1057B2 /* Pods-AwesomeBitRise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AwesomeBitRise.debug.xcconfig"; sourceTree = "<group>"; };
+		795A3F7466C9D7C3F7EE762D987E8954 /* Pods-AwesomeBitRise-tvOSTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AwesomeBitRise-tvOSTests-frameworks.sh"; sourceTree = "<group>"; };
+		801B819466964A61741867D0E14B6F04 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EF58D68494E6DCC1960CEFA1950C9FF /* Pods-AwesomeBitRise-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AwesomeBitRise-tvOS.modulemap"; sourceTree = "<group>"; };
+		9117F07178E1973AB77EB0D153704E61 /* Pods-AwesomeBitRise-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AwesomeBitRise-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		92ECAED8947836450A352B967BF39A0B /* Pods-AwesomeBitRise-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AwesomeBitRise-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98FA2B94E4EB76BBFD97421DDD13ABBF /* Pods-AwesomeBitRiseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AwesomeBitRiseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A52A07C78D672090CDEF4D2384063D3 /* Pods-AwesomeBitRiseTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AwesomeBitRiseTests.modulemap"; sourceTree = "<group>"; };
+		9C65BE6D8892E88A8E5C97DA4EAA5853 /* Pods-AwesomeBitRise-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AwesomeBitRise-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		A0D2644A59BEC74AA0CA9270A66863C1 /* Pods-AwesomeBitRise-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AwesomeBitRise-dummy.m"; sourceTree = "<group>"; };
+		A3968B4136349BD3A43A506770DB5E17 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADB907E84BFDF8EF2503E137E8C12C66 /* Pods-AwesomeBitRise-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AwesomeBitRise-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AE07C0DAA1A74AA3256B5A07C65484B2 /* Pods-AwesomeBitRise-tvOSTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AwesomeBitRise-tvOSTests-resources.sh"; sourceTree = "<group>"; };
+		B68E467595B6E934FB6DC73790332DB1 /* Pods-AwesomeBitRise-tvOSTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AwesomeBitRise-tvOSTests.modulemap"; sourceTree = "<group>"; };
+		B6E33FBE7E58E4C1048272566697E2F0 /* Pods-AwesomeBitRise-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AwesomeBitRise-frameworks.sh"; sourceTree = "<group>"; };
+		B88AED2B764889A94AD82AE6AA4AF5F0 /* Pods-AwesomeBitRise-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AwesomeBitRise-resources.sh"; sourceTree = "<group>"; };
+		C6CCAE3F8C9C9A02AEB6EBDAAFA27B60 /* Pods-AwesomeBitRise-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AwesomeBitRise-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C9FAD25F2BB4AE46AC204C3FF337F073 /* Pods-AwesomeBitRiseTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AwesomeBitRiseTests-frameworks.sh"; sourceTree = "<group>"; };
+		CD07AB69A4AB2455DD8569059B513599 /* Pods_AwesomeBitRise_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AwesomeBitRise_tvOSTests.framework; path = "Pods-AwesomeBitRise-tvOSTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5FBFBC45511CAF399974DA39C3A28A9 /* Pods-AwesomeBitRise-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AwesomeBitRise-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D747A61A355F3DCC6F4F76E228F414CC /* Pods_AwesomeBitRise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AwesomeBitRise.framework; path = "Pods-AwesomeBitRise.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D76BEAD7B6D5A90BA7015A6CD03C38CF /* Pods_AwesomeBitRise_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AwesomeBitRise_tvOS.framework; path = "Pods-AwesomeBitRise-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDCEE3698886F2360F4751F3CAA8E313 /* Pods-AwesomeBitRise-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AwesomeBitRise-umbrella.h"; sourceTree = "<group>"; };
+		E370FF5A619E030165E87B41C91A1E38 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4F44A7D973580214DBF2E53DF046BED /* Pods-AwesomeBitRise-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AwesomeBitRise-acknowledgements.plist"; sourceTree = "<group>"; };
+		ED4CDB8B7D6DAC6C5DC0AF090EA4BF6D /* Pods-AwesomeBitRise-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AwesomeBitRise-tvOSTests-dummy.m"; sourceTree = "<group>"; };
+		F2405B808CC73CD4A9D1BF7362A72E5B /* Pods-AwesomeBitRiseTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AwesomeBitRiseTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F4A1E7341E9A6603F7766E339259967C /* Pods-AwesomeBitRiseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AwesomeBitRiseTests.release.xcconfig"; sourceTree = "<group>"; };
+		FDE937F70D5DBF1A7F09641FDCE20931 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8249787270D5741BBC747216D2022D61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9931B230810828E986BDCDED64C3C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83EC9EB1C71FF1B47941CC20216D8777 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0DB3F768A0CDC83338D1485840D78AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18C9343FC6726F66AB267084F3F538F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D9C1550FB5BDAEEFF98B55238B893CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D418A2B2A564AE000EB46DEF50C7D22D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B3A5A8B1B73ED5723F0E5633B425EE8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		145A7D50731AFCC0D48A530C54C6F201 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D747A61A355F3DCC6F4F76E228F414CC /* Pods_AwesomeBitRise.framework */,
+				D76BEAD7B6D5A90BA7015A6CD03C38CF /* Pods_AwesomeBitRise_tvOS.framework */,
+				CD07AB69A4AB2455DD8569059B513599 /* Pods_AwesomeBitRise_tvOSTests.framework */,
+				72256BD6495B8A6F0E35D0961303876D /* Pods_AwesomeBitRiseTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DE4172D53975D404E48C9B775B8E50C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FDE937F70D5DBF1A7F09641FDCE20931 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5BF9AC5C55E92460ACCDB619C5233110 /* Pods-AwesomeBitRise-tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				801B819466964A61741867D0E14B6F04 /* Info.plist */,
+				B68E467595B6E934FB6DC73790332DB1 /* Pods-AwesomeBitRise-tvOSTests.modulemap */,
+				ADB907E84BFDF8EF2503E137E8C12C66 /* Pods-AwesomeBitRise-tvOSTests-acknowledgements.markdown */,
+				C6CCAE3F8C9C9A02AEB6EBDAAFA27B60 /* Pods-AwesomeBitRise-tvOSTests-acknowledgements.plist */,
+				ED4CDB8B7D6DAC6C5DC0AF090EA4BF6D /* Pods-AwesomeBitRise-tvOSTests-dummy.m */,
+				795A3F7466C9D7C3F7EE762D987E8954 /* Pods-AwesomeBitRise-tvOSTests-frameworks.sh */,
+				AE07C0DAA1A74AA3256B5A07C65484B2 /* Pods-AwesomeBitRise-tvOSTests-resources.sh */,
+				309BE3F2292CE90A390CEEDF94785D9F /* Pods-AwesomeBitRise-tvOSTests-umbrella.h */,
+				9117F07178E1973AB77EB0D153704E61 /* Pods-AwesomeBitRise-tvOSTests.debug.xcconfig */,
+				46DFA8852E59EFD0CBF6F9EB1BC7CD3D /* Pods-AwesomeBitRise-tvOSTests.release.xcconfig */,
+			);
+			name = "Pods-AwesomeBitRise-tvOSTests";
+			path = "Target Support Files/Pods-AwesomeBitRise-tvOSTests";
+			sourceTree = "<group>";
+		};
+		609AC8DEEC5A0DA8CBA0FC3F17340900 /* Pods-AwesomeBitRise-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				73C607B5BE1E71643C5A3948A1D2E35E /* Info.plist */,
+				8EF58D68494E6DCC1960CEFA1950C9FF /* Pods-AwesomeBitRise-tvOS.modulemap */,
+				7407D1A6F393B6B0F8F9BED8C4CB2190 /* Pods-AwesomeBitRise-tvOS-acknowledgements.markdown */,
+				92ECAED8947836450A352B967BF39A0B /* Pods-AwesomeBitRise-tvOS-acknowledgements.plist */,
+				13DED41CC3E5BAA92414840356ECD700 /* Pods-AwesomeBitRise-tvOS-dummy.m */,
+				238FD88259B59BB54C20C484AF48F86F /* Pods-AwesomeBitRise-tvOS-frameworks.sh */,
+				5CDE8F6EF714346CCE5E045E63C2A8FC /* Pods-AwesomeBitRise-tvOS-resources.sh */,
+				622FC089582F3A62DC150AACE743EA12 /* Pods-AwesomeBitRise-tvOS-umbrella.h */,
+				1859BB36F9470A0E76B751E68EF74676 /* Pods-AwesomeBitRise-tvOS.debug.xcconfig */,
+				9C65BE6D8892E88A8E5C97DA4EAA5853 /* Pods-AwesomeBitRise-tvOS.release.xcconfig */,
+			);
+			name = "Pods-AwesomeBitRise-tvOS";
+			path = "Target Support Files/Pods-AwesomeBitRise-tvOS";
+			sourceTree = "<group>";
+		};
+		65ADCD145C914829B8F7EB01E143ED47 /* Pods-AwesomeBitRiseTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3968B4136349BD3A43A506770DB5E17 /* Info.plist */,
+				9A52A07C78D672090CDEF4D2384063D3 /* Pods-AwesomeBitRiseTests.modulemap */,
+				F2405B808CC73CD4A9D1BF7362A72E5B /* Pods-AwesomeBitRiseTests-acknowledgements.markdown */,
+				4A455DBCC0584EF63609D19B3465F81C /* Pods-AwesomeBitRiseTests-acknowledgements.plist */,
+				1C017F4D587700B2BA3C14E1883B7051 /* Pods-AwesomeBitRiseTests-dummy.m */,
+				C9FAD25F2BB4AE46AC204C3FF337F073 /* Pods-AwesomeBitRiseTests-frameworks.sh */,
+				3B310534917C68097F0D73DF31B1570D /* Pods-AwesomeBitRiseTests-resources.sh */,
+				534A0679FEC9E367899DCF28FF77CB1E /* Pods-AwesomeBitRiseTests-umbrella.h */,
+				98FA2B94E4EB76BBFD97421DDD13ABBF /* Pods-AwesomeBitRiseTests.debug.xcconfig */,
+				F4A1E7341E9A6603F7766E339259967C /* Pods-AwesomeBitRiseTests.release.xcconfig */,
+			);
+			name = "Pods-AwesomeBitRiseTests";
+			path = "Target Support Files/Pods-AwesomeBitRiseTests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A42F72DC1D780481325DD00969B19BB6 /* Frameworks */,
+				145A7D50731AFCC0D48A530C54C6F201 /* Products */,
+				7E50377AC1660D25A013996B9FBEE7D3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E50377AC1660D25A013996B9FBEE7D3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				945267A4355ACB88A85E3C0DE562D3FB /* Pods-AwesomeBitRise */,
+				609AC8DEEC5A0DA8CBA0FC3F17340900 /* Pods-AwesomeBitRise-tvOS */,
+				5BF9AC5C55E92460ACCDB619C5233110 /* Pods-AwesomeBitRise-tvOSTests */,
+				65ADCD145C914829B8F7EB01E143ED47 /* Pods-AwesomeBitRiseTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		945267A4355ACB88A85E3C0DE562D3FB /* Pods-AwesomeBitRise */ = {
+			isa = PBXGroup;
+			children = (
+				E370FF5A619E030165E87B41C91A1E38 /* Info.plist */,
+				60ACB3B4EA299EA205C5F89D1B6BF755 /* Pods-AwesomeBitRise.modulemap */,
+				D5FBFBC45511CAF399974DA39C3A28A9 /* Pods-AwesomeBitRise-acknowledgements.markdown */,
+				E4F44A7D973580214DBF2E53DF046BED /* Pods-AwesomeBitRise-acknowledgements.plist */,
+				A0D2644A59BEC74AA0CA9270A66863C1 /* Pods-AwesomeBitRise-dummy.m */,
+				B6E33FBE7E58E4C1048272566697E2F0 /* Pods-AwesomeBitRise-frameworks.sh */,
+				B88AED2B764889A94AD82AE6AA4AF5F0 /* Pods-AwesomeBitRise-resources.sh */,
+				DDCEE3698886F2360F4751F3CAA8E313 /* Pods-AwesomeBitRise-umbrella.h */,
+				773ACF9F56A01DA7D26EDCDCDC1057B2 /* Pods-AwesomeBitRise.debug.xcconfig */,
+				5F5384FCCBC7602724A0CE790E922B9D /* Pods-AwesomeBitRise.release.xcconfig */,
+			);
+			name = "Pods-AwesomeBitRise";
+			path = "Target Support Files/Pods-AwesomeBitRise";
+			sourceTree = "<group>";
+		};
+		A42F72DC1D780481325DD00969B19BB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DE4172D53975D404E48C9B775B8E50C /* iOS */,
+				C6CC00C96C49F63F45AADA6AA6B1BC07 /* tvOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6CC00C96C49F63F45AADA6AA6B1BC07 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				158063BD094C9B7A1837A1C7B0E3B298 /* Foundation.framework */,
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		21AE62B9269C5BF77AC14282C7703013 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF37D785B5338AB40E180C44796D0400 /* Pods-AwesomeBitRise-tvOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D0D4A764660B97B0B8CC8DABC971ADE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15343B3486B25D3722CBF835673B1E26 /* Pods-AwesomeBitRise-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB362EFA9335E174883AA5D58981B9E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1116D0201E0A7B2D785C091B0DF59F /* Pods-AwesomeBitRiseTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7876CA5E7ED729AC20B27DC0351FD4C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF0BCBA6A85406B1FB4E4717D142EEF1 /* Pods-AwesomeBitRise-tvOSTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4B4EA0997FE12A423C71768B088509BD /* Pods-AwesomeBitRise-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4B17DEC3E0D504FD8F9A4F04B5BC8CB /* Build configuration list for PBXNativeTarget "Pods-AwesomeBitRise-tvOS" */;
+			buildPhases = (
+				BF3B9A51D2EB80898A81BC3B0BA92BCE /* Sources */,
+				B18C9343FC6726F66AB267084F3F538F /* Frameworks */,
+				21AE62B9269C5BF77AC14282C7703013 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AwesomeBitRise-tvOS";
+			productName = "Pods-AwesomeBitRise-tvOS";
+			productReference = D76BEAD7B6D5A90BA7015A6CD03C38CF /* Pods_AwesomeBitRise_tvOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		97C1D0942C2CF44929DBD3AE56756CAB /* Pods-AwesomeBitRise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D404F06A053F46461F882C28DB8C637B /* Build configuration list for PBXNativeTarget "Pods-AwesomeBitRise" */;
+			buildPhases = (
+				100DDCFE995430D93C2EB9D6CD6F9002 /* Sources */,
+				83EC9EB1C71FF1B47941CC20216D8777 /* Frameworks */,
+				9D0D4A764660B97B0B8CC8DABC971ADE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AwesomeBitRise";
+			productName = "Pods-AwesomeBitRise";
+			productReference = D747A61A355F3DCC6F4F76E228F414CC /* Pods_AwesomeBitRise.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A3BA87A87E821CF7FE163EE34A371CA0 /* Pods-AwesomeBitRise-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D2315B550A253D05CF83EA0F224D066 /* Build configuration list for PBXNativeTarget "Pods-AwesomeBitRise-tvOSTests" */;
+			buildPhases = (
+				5A872975F14990141996E4499592895B /* Sources */,
+				8249787270D5741BBC747216D2022D61 /* Frameworks */,
+				D7876CA5E7ED729AC20B27DC0351FD4C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83B94BF6611F3153B863396FD995C688 /* PBXTargetDependency */,
+			);
+			name = "Pods-AwesomeBitRise-tvOSTests";
+			productName = "Pods-AwesomeBitRise-tvOSTests";
+			productReference = CD07AB69A4AB2455DD8569059B513599 /* Pods_AwesomeBitRise_tvOSTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD2175160C6F206E9C8EC5BD4508796E /* Pods-AwesomeBitRiseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FECDFC964D7144B7412FC77B250A52C8 /* Build configuration list for PBXNativeTarget "Pods-AwesomeBitRiseTests" */;
+			buildPhases = (
+				89EDABB62AD5FCAEF74B5CDD00FFAB96 /* Sources */,
+				D418A2B2A564AE000EB46DEF50C7D22D /* Frameworks */,
+				CCB362EFA9335E174883AA5D58981B9E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1016EC023DE96909D379010F9E0C6AD7 /* PBXTargetDependency */,
+			);
+			name = "Pods-AwesomeBitRiseTests";
+			productName = "Pods-AwesomeBitRiseTests";
+			productReference = 72256BD6495B8A6F0E35D0961303876D /* Pods_AwesomeBitRiseTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 145A7D50731AFCC0D48A530C54C6F201 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97C1D0942C2CF44929DBD3AE56756CAB /* Pods-AwesomeBitRise */,
+				4B4EA0997FE12A423C71768B088509BD /* Pods-AwesomeBitRise-tvOS */,
+				A3BA87A87E821CF7FE163EE34A371CA0 /* Pods-AwesomeBitRise-tvOSTests */,
+				BD2175160C6F206E9C8EC5BD4508796E /* Pods-AwesomeBitRiseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		100DDCFE995430D93C2EB9D6CD6F9002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A9429968E565C4162C4546242E8BE1F /* Pods-AwesomeBitRise-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A872975F14990141996E4499592895B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C3F5436EE5AA72F43F5DF72FFEC220E /* Pods-AwesomeBitRise-tvOSTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89EDABB62AD5FCAEF74B5CDD00FFAB96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E18A26A095A38CBA11485E54F64661A0 /* Pods-AwesomeBitRiseTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF3B9A51D2EB80898A81BC3B0BA92BCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FD785E8C2DCC44C03F82907FE1AA75B /* Pods-AwesomeBitRise-tvOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1016EC023DE96909D379010F9E0C6AD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AwesomeBitRise";
+			target = 97C1D0942C2CF44929DBD3AE56756CAB /* Pods-AwesomeBitRise */;
+			targetProxy = 154C775DCC56E4D31AC43EFBD0E83846 /* PBXContainerItemProxy */;
+		};
+		83B94BF6611F3153B863396FD995C688 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AwesomeBitRise-tvOS";
+			target = 4B4EA0997FE12A423C71768B088509BD /* Pods-AwesomeBitRise-tvOS */;
+			targetProxy = 2DE6FBAEC815DCA8CA3369FB6AB088B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		191B6DAD7A95CDB4F8A1D640EFD95C5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98FA2B94E4EB76BBFD97421DDD13ABBF /* Pods-AwesomeBitRiseTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AwesomeBitRiseTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AwesomeBitRiseTests/Pods-AwesomeBitRiseTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1EA8CDCA49D5A280A3417B7878BFF5DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		23A9FEC644472369BA8C383A4A17AA91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46DFA8852E59EFD0CBF6F9EB1BC7CD3D /* Pods-AwesomeBitRise-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AwesomeBitRise-tvOSTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AwesomeBitRise-tvOSTests/Pods-AwesomeBitRise-tvOSTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		43BD4633FEA6284BF181D3923E2F6675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C65BE6D8892E88A8E5C97DA4EAA5853 /* Pods-AwesomeBitRise-tvOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AwesomeBitRise-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AwesomeBitRise-tvOS/Pods-AwesomeBitRise-tvOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4AF38E80CD34A31E0C41A5EA0DD049B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1859BB36F9470A0E76B751E68EF74676 /* Pods-AwesomeBitRise-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AwesomeBitRise-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AwesomeBitRise-tvOS/Pods-AwesomeBitRise-tvOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D9C6549CC2EDDBF3E41098F5E92C04B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F5384FCCBC7602724A0CE790E922B9D /* Pods-AwesomeBitRise.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AwesomeBitRise/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AwesomeBitRise/Pods-AwesomeBitRise.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6829B78B8ABFDD9744EFF3911297F4B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4A1E7341E9A6603F7766E339259967C /* Pods-AwesomeBitRiseTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AwesomeBitRiseTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AwesomeBitRiseTests/Pods-AwesomeBitRiseTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		78CCF2F8575642B0F9526268F670DF6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		8D041CE864DA8753D57B652A0FBAE1C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 773ACF9F56A01DA7D26EDCDCDC1057B2 /* Pods-AwesomeBitRise.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AwesomeBitRise/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AwesomeBitRise/Pods-AwesomeBitRise.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B900AF310CF626F82BA6CC7F1666DBC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9117F07178E1973AB77EB0D153704E61 /* Pods-AwesomeBitRise-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AwesomeBitRise-tvOSTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AwesomeBitRise-tvOSTests/Pods-AwesomeBitRise-tvOSTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EA8CDCA49D5A280A3417B7878BFF5DD /* Debug */,
+				78CCF2F8575642B0F9526268F670DF6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D2315B550A253D05CF83EA0F224D066 /* Build configuration list for PBXNativeTarget "Pods-AwesomeBitRise-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B900AF310CF626F82BA6CC7F1666DBC3 /* Debug */,
+				23A9FEC644472369BA8C383A4A17AA91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4B17DEC3E0D504FD8F9A4F04B5BC8CB /* Build configuration list for PBXNativeTarget "Pods-AwesomeBitRise-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AF38E80CD34A31E0C41A5EA0DD049B8 /* Debug */,
+				43BD4633FEA6284BF181D3923E2F6675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D404F06A053F46461F882C28DB8C637B /* Build configuration list for PBXNativeTarget "Pods-AwesomeBitRise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D041CE864DA8753D57B652A0FBAE1C2 /* Debug */,
+				4D9C6549CC2EDDBF3E41098F5E92C04B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FECDFC964D7144B7412FC77B250A52C8 /* Build configuration list for PBXNativeTarget "Pods-AwesomeBitRiseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				191B6DAD7A95CDB4F8A1D640EFD95C5D /* Debug */,
+				6829B78B8ABFDD9744EFF3911297F4B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

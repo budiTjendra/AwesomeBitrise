@@ -1519,7 +1519,7 @@ combined-stream@1.0.6, combined-stream@~1.0.5:
   dependencies:
     delayed-stream "~1.0.0"
 
-commander@^2.9.0:
+commander@^2.14.1, commander@^2.9.0:
   version "2.16.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.16.0.tgz#f16390593996ceb4f3eeb020b31d78528f7f8a50"
 
@@ -4119,6 +4119,14 @@ react-is@^16.4.1:
   version "16.4.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.4.1.tgz#d624c4650d2c65dbd52c72622bbf389435d9776e"
 
+react-native-pod@^1.10.2:
+  version "1.10.2"
+  resolved "https://registry.yarnpkg.com/react-native-pod/-/react-native-pod-1.10.2.tgz#7951731b14f16d0d01e0d61c800832df593a0162"
+  dependencies:
+    commander "^2.14.1"
+    glob "^7.1.2"
+    xcode rhdeck/cordova-node-xcode
+
 react-native@0.56.0:
   version "0.56.0"
   resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.56.0.tgz#66686f781ec39a44376aadd4bbc55c8573ab61e5"
@@ -5229,6 +5237,14 @@ ws@^4.0.0:
 xcode@^0.9.1:
   version "0.9.3"
   resolved "https://registry.yarnpkg.com/xcode/-/xcode-0.9.3.tgz#910a89c16aee6cc0b42ca805a6d0b4cf87211cf3"
+  dependencies:
+    pegjs "^0.10.0"
+    simple-plist "^0.2.1"
+    uuid "3.0.1"
+
+"xcode@github:rhdeck/cordova-node-xcode":
+  version "2.1.2"
+  resolved "https://codeload.github.com/rhdeck/cordova-node-xcode/tar.gz/f9b3f947b6f0e8d4610bdcc5711477f80f664479"
   dependencies:
     pegjs "^0.10.0"
     simple-plist "^0.2.1"
